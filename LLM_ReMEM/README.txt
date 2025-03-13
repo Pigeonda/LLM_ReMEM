@@ -8,8 +8,6 @@ It allows efficient memory management and enhances AI-driven responses using sto
 ##  Installation Guide
 
 ### 1 Clone the Repository
-First, clone this repository to your local machine:
-```bash
 git clone https://github.com/Pigeonda/LLM_ReMEM.git
 cd LLM_ReMEM
 
