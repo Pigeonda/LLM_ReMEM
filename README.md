@@ -3,6 +3,7 @@
 This project is a **FastAPI-based AI memory system** that based on **RAG** for vector-based storage and retrieval.  
 It allows efficient memory management and enhances AI-driven responses using stored contextual information. 
 
+*Warning: This project do not support **STREAM** yet*
 ---
 
 ##  Installation Guide
