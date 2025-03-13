@@ -1,7 +1,5 @@
 # LLM_ReMEM
 
-# LLM_ReMEM
-
 This project is a **FastAPI-based AI memory system** that utilizes **ChromaDB** for vector-based storage and retrieval.
 It allows efficient memory management and enhances AI-driven responses using stored contextual information.
 
