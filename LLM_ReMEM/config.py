@@ -1,7 +1,7 @@
-LM_Studio_API = "http://192.168.2.1:1234/v1/chat/completions"
+LM_Studio_API = "http://your_ip/v1/chat/completions"
 LLM_ReMEM_API = "http://0.0.0.0:8080/v1"
 
-MAIN_Model = "gemma-2-27b-it@q8_0"
+MAIN_Model = ""
 
 temperature = 0.8
 max_tokens = 512
