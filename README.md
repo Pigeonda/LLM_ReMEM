@@ -34,5 +34,7 @@ paste it under LLM_ReMEM file
 
 ### 5 Start the FastAPI Server
 uvicorn Transfer_plat:app --host 0.0.0.0 --port 8080  
-
-![LLM_ReMEM_Image](https://github.com/user-attachments/assets/92498ce7-d08d-4f83-a229-bf40447b99b3)
+  
+  
+##Flow Chat  
+![image](https://github.com/user-attachments/assets/3dc0b96f-bc4a-4265-8af4-0480ae822509)
