@@ -35,11 +35,16 @@ https://github.com/netease-youdao/BCEmbedding
 coppy the BCEmbedding file from zip  
 paste it under LLM_ReMEM file  
 
-### 5 Start the FastAPI Server First Time
+
+### 5 Change the Config  
+Details is in Instructions for use: config  
+
+
+### 6 Start the FastAPI Server First Time
 uvicorn Transfer_plat:app --host 0.0.0.0 --port 8080  
 
 
-### 6 Start the FastAPI Server Second Time In Terminal
+### 7 Start the FastAPI Server Second Time In Terminal
 **For Windows**  
 cd ...\LLM_ReMEM  
 venv\Scripts\activate  
@@ -54,7 +59,7 @@ uvicorn Transfer_plat:app --host 0.0.0.0 --port 8080
 ##  Instructions for use
 
 ### Config
-LM_Studio_API: "http://ip:port/v1/chat/completions" # Any platforms that support OpenAI API  
+LM_Studio_API: http://ip:port/v1/chat/completions # Any platforms that support OpenAI API  
 *For Example, In LM Studio, the default api will be: http://127.0.0.1:1234/v1/chat/completions*  
 
 LLM_ReMEM_API: The API of LLM_ReMEM that you are using, **Important** Changing in config will just change the log in terminal, if you want to change the port of LLM_ReMEM, please change it from start process(uvicorn Transfer_plat:app --host 0.0.0.0 --port 8080)  
@@ -66,7 +71,7 @@ temperature: Temperature for LLM
 max_tokens: Max Tokens for LLM  
 
 MIN_DISTANCE = -0.1  # Smallest Similarity, Don't need to Change usually  
-MAX_DISTANCE = 0.5  # Maximum Similarity, if larger than this will be ignore  
+MAX_DISTANCE = 0.5  # Maximum Similarity, if target message distance larger than this will be ignore  
 
 context_size: The size of how many context will be get from target message  
 result_num: The number of how many message will be drawn from embedding check  
