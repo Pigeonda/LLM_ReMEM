@@ -36,7 +36,8 @@ coppy the BCEmbedding file from zip
 paste it under LLM_ReMEM file  
 
 
-### 6 Change the Config  
+### 5 Change the Config  
+Details is in Instructions for use: config  
 
 
 ### 6 Start the FastAPI Server First Time
