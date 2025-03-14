@@ -59,7 +59,7 @@ uvicorn Transfer_plat:app --host 0.0.0.0 --port 8080
 ##  Instructions for use
 
 ### Config
-LM_Studio_API: "http://ip:port/v1/chat/completions" # Any platforms that support OpenAI API  
+LM_Studio_API: http://ip:port/v1/chat/completions # Any platforms that support OpenAI API  
 *For Example, In LM Studio, the default api will be: http://127.0.0.1:1234/v1/chat/completions*  
 
 LLM_ReMEM_API: The API of LLM_ReMEM that you are using, **Important** Changing in config will just change the log in terminal, if you want to change the port of LLM_ReMEM, please change it from start process(uvicorn Transfer_plat:app --host 0.0.0.0 --port 8080)  
