@@ -81,17 +81,11 @@ This part is been showing in the code:
 
 In Example, you can see there is a role and name in given dict. Usually when role is user, it is you, you can change the name to your name, like this:  
 
-def input_editor(input_dict):
-      if input_dict.get('role') == 'user':
-          input_dict['name'] = 'Jack'
-      elif ...
+![image](https://github.com/user-attachments/assets/d7f84e28-4e7d-49cb-aa19-00dcff851a56)  
 
 In this case, we have been changed name to Jack, simillarly, we can chagne source by other condition:
 
-def input_editor(input_dict):
-      if input_dict.get('...') == '...':
-          input_dict['source'] = 'Discord'
-      elif ...
+![image](https://github.com/user-attachments/assets/9dae89f9-629b-413b-9dfc-09e525bb9260)  
 
 **What can we do with that?**
 1. In Memory_Module:
