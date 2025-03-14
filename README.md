@@ -35,11 +35,15 @@ https://github.com/netease-youdao/BCEmbedding
 coppy the BCEmbedding file from zip  
 paste it under LLM_ReMEM file  
 
-### 5 Start the FastAPI Server First Time
+
+### 6 Change the Config  
+
+
+### 6 Start the FastAPI Server First Time
 uvicorn Transfer_plat:app --host 0.0.0.0 --port 8080  
 
 
-### 6 Start the FastAPI Server Second Time In Terminal
+### 7 Start the FastAPI Server Second Time In Terminal
 **For Windows**  
 cd ...\LLM_ReMEM  
 venv\Scripts\activate  
