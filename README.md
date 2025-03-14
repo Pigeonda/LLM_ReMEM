@@ -43,7 +43,7 @@ Details is in Instructions for use: config
 ### 6 Start the FastAPI Server First Time
 uvicorn Transfer_plat:app --host 0.0.0.0 --port 8080  
 
-
+---
 ### Start the FastAPI Server In Terminal
 **For Windows**  
 cd ...\LLM_ReMEM  
