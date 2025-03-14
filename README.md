@@ -12,7 +12,7 @@ More information will be updated later
 
 ### 1 Clone the Repository
 git clone https://github.com/Pigeonda/LLM_ReMEM.git  
-cd LLM_ReMEM  
+cd ...\LLM_ReMEM  
 
 
 ### 2 Create and Activate a Virtual Environment
@@ -35,9 +35,15 @@ https://github.com/netease-youdao/BCEmbedding
 coppy the BCEmbedding file from zip  
 paste it under LLM_ReMEM file  
 
-### 5 Start the FastAPI Server
+### 5 Start the FastAPI Server First Time
 uvicorn Transfer_plat:app --host 0.0.0.0 --port 8080  
-  
-  
+
+
+### 6 Start the FastAPI Server Second Time In Terminal
+For Windows
+cd ...\LLM_ReMEM
+venv\Scripts\activate  
+uvicorn Transfer_plat:app --host 0.0.0.0 --port 8080  
+
 ## Flow Chat  
 ![image](https://github.com/user-attachments/assets/3dc0b96f-bc4a-4265-8af4-0480ae822509)
