@@ -71,7 +71,7 @@ temperature: Temperature for LLM
 max_tokens: Max Tokens for LLM  
 
 MIN_DISTANCE = -0.1  # Smallest Similarity, Don't need to Change usually  
-MAX_DISTANCE = 0.5  # Maximum Similarity, if larger than this will be ignore  
+MAX_DISTANCE = 0.5  # Maximum Similarity, if target message distance larger than this will be ignore  
 
 context_size: The size of how many context will be get from target message  
 result_num: The number of how many message will be drawn from embedding check  
