@@ -123,7 +123,7 @@ async def chat_completions(request: OpenAIChatRequest, background_tasks: Backgro
                     name_nxt = nxt.get("name", "Unknown")
                     src_nxt = nxt.get("source", "Unknown")
                     cnt_nxt = nxt.get("content", "")
-                    mem_reference += f"{result_time_to_sec}，{name_nxt} 在 {src_nxt} 说：{cnt_nxt}\n"
+                    mem_reference += f"{result_time_to_sec}，{name_nxt} on {src_nxt} said: {cnt_nxt}\n"
 
                 # Record Similarity
                 mem_distance += f"(Similarity: {result_distance:.3f})\n"
